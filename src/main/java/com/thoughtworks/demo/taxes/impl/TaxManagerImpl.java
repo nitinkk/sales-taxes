@@ -14,7 +14,7 @@ import com.thoughtworks.demo.taxes.TaxManager;
  */
 public class TaxManagerImpl implements TaxManager {
 	
-	private static BigDecimal IMPORT_DUTY_RATE = new BigDecimal("0.05");
+	private static final BigDecimal IMPORT_DUTY_RATE = new BigDecimal("0.05");
 
 	@Override
 	public Tax getTax(ProductCategory category, boolean isImported) {

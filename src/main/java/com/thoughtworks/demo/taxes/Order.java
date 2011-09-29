@@ -23,6 +23,7 @@ public class Order {
 	/**
 	 * Constructor.
 	 * @param id the order's id
+     * @param orderItems the list oder's items
 	 */
 	public Order(long id, List<OrderItem> orderItems) {
 		this.id = id;
