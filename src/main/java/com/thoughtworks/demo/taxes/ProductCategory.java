@@ -46,7 +46,7 @@ public enum ProductCategory {
 	 * Default constructor for product categories those have basic sales tax rate. 
 	 */
 	private ProductCategory() {
-		this.salesTax = new BigDecimal("0.1");
+		this("0.1");
 	}	
 	
 	/**
